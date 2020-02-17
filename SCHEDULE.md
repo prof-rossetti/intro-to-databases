@@ -2,7 +2,7 @@
 
 ## Module I - Database Usage
 
-### Week 1 - 9/2/15
+### Week 1
 
 duration (mins) | usage | topic
 --- | --- | ---
@@ -15,7 +15,7 @@ Assignment(s):
  + [Questionnaire](assignments/lab/questionnaire.md) (given and due)
  + [Meetups](assignments/lab/meetups.md) (given)
 
-### Week 2 - 9/9/15
+### Week 2
 
 duration (mins) | usage | topic
 --- | --- | ---
@@ -27,7 +27,7 @@ Assignment(s):
 
  + [Database Management Software](assignments/lab/database-management-software.md) (given and due)
 
-### Week 3 - 9/16/15
+### Week 3
 
 duration (mins) | usage | topic
 --- | --- | ---
@@ -40,7 +40,7 @@ Assignment(s):
  + [Group Project Midterm Pitch](assignments/group-project/midterm-pitch.md) (given)
  + [Data Analysis](assignments/lab/data-analysis.md) (given)
 
-### Week 4 - 9/23/15
+### Week 4
 
 duration (mins) | usage | topic
 --- | --- | ---
@@ -54,7 +54,7 @@ Assignment(s):
  + [Data Analysis](assignments/lab/data-analysis.md) (due)
  + [Relational Data Analysis](assignments/lab/relational-data-analysis.md) (given)
 
-### Week 5 - 9/30/15
+### Week 5
 
 duration (mins) | usage | topic
 --- | --- | ---
@@ -72,7 +72,7 @@ Suggested Group Project Progress:
    + Business Operations and Process Descriptions
    + Information System Requirements
 
-### Week 6 - 10/7/15
+### Week 6
 
 duration (mins) | usage | topic
 --- | --- | ---
@@ -85,7 +85,7 @@ Assignment(s):
  + [Group Project Final Implementation](assignments/group-project/final-implementation.md) (given)
  + [Group Project Final Presentation](assignments/group-project/final-presentation.md) (given)
 
-### Week 7 - 10/14/15
+### Week 7
 
 duration (mins) | usage | topic
 --- | --- | ---
@@ -111,7 +111,7 @@ duration (mins) | usage | topic
 
 ## Module II - Database Design
 
-### Week 8 - 10/21/15
+### Week 8
 
 duration (mins) | usage | topic
 --- | --- | ---
@@ -125,7 +125,7 @@ Assignment(s):
 
  + [Entity and Relationship Identification](assignments/lab/entity-relationship-identification.md) (given)
 
-### Week 9 - 10/28/15
+### Week 9
 
 duration (mins) | usage | topic
 --- | --- | ---
@@ -139,7 +139,7 @@ Assignment(s):
  + [Entity and Relationship Identification](assignments/lab/entity-relationship-identification.md) (due)
  + [Entity Relationship Diagramming](assignments/lab/entity-relationship-diagramming.md) (given)
 
-### Week 10 - 11/4/15
+### Week 10
 
 duration (mins) | usage | topic
 --- | --- | ---
@@ -175,7 +175,7 @@ Additional Practice:
 
 ## Module III - Database Applications
 
-### Week 11 - 11/11/15
+### Week 11
 
 duration (mins) | usage | topic
 --- | --- | ---
@@ -195,7 +195,7 @@ Suggested Group Project Progress:
 
  + Completed ERD
 
-### Week 12 - 11/18/15
+### Week 12
 
 duration (mins) | usage | topic
 --- | --- | ---
@@ -213,7 +213,7 @@ Suggested Group Project Progress:
 
   + Populated Database
 
-### Week 13 - 11/25/15
+### Week 13
 
 No Class - Thanksgiving
 
@@ -221,7 +221,7 @@ Suggested Group Project Progress:
 
   + Progress towards Database Application Functionality
 
-### Week 14 - 12/2/15
+### Week 14
 
 duration (mins) | usage | topic
 --- | --- | ---
@@ -249,7 +249,7 @@ Suggested Group Project Progress:
 
 
 
-### Week 15 - 12/9/15
+### Week 15
 
 duration (mins) | usage | topic
 --- | --- | ---
@@ -262,9 +262,7 @@ Assignment(s):
  + [Group Project Final Presentation](assignments/group-project/final-presentation.md) (due)
  + [Meetups](assignments/lab/meetups.md) (due)
 
-### Finals Week - 12/16/15
-
-The final exam will be held from **5:20pm-7:20pm** in Duques 351.
+### Finals Week
 
 duration (mins) | usage | topic
 --- | --- | ---
