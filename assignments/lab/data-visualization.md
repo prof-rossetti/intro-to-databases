@@ -1,4 +1,4 @@
-# Database Outputs (Data Vizualization) Lab Assignment
+# Database Outputs (Data Visualization) Lab Assignment
 
 You may use any data visualization tool or software to complete this assignment.
 
