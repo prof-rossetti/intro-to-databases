@@ -2,268 +2,48 @@
 
 ## Module I - Database Usage
 
-### Week 1
-
-duration (mins) | usage | topic
---- | --- | ---
-70 | Lecture | Introduction to this Course
-10 | Break |
-70 | Lecture | [Introduction to Databases within the context of Information Systems](notes/info-systems.md)
-
-Assignment(s):
-
- + [Questionnaire](assignments/lab/questionnaire.md) (given and due)
- + [Meetups](assignments/lab/meetups.md) (given)
-
-### Week 2
-
-duration (mins) | usage | topic
---- | --- | ---
-70 | Lecture | [Database Management](notes/database-management.md)
-10 | Break |
-70 | Lab | Database Management Software (DBMS), including in-class assignment
-
-Assignment(s):
-
- + [Database Management Software](assignments/lab/database-management-software.md) (given and due)
-
-### Week 3
-
-duration (mins) | usage | topic
---- | --- | ---
-70 | Lecture | [Single-table SQL](notes/data-analysis/single-table-sql.md)
-10 | Break |
-70 | Lecture | [Single-table Aggregate SQL](notes/data-analysis/single-table-aggregate-sql.md)
-
-Assignment(s):
-
- + [Group Project Midterm Pitch](assignments/group-project/midterm-pitch.md) (given)
- + [Data Analysis](assignments/lab/data-analysis.md) (given)
-
-### Week 4
-
-duration (mins) | usage | topic
---- | --- | ---
-65 | Lecture | [Multi-table SQL](notes/data-analysis/multi-table-sql.md)
-5 | Lecture | [Multi-database SQL](notes/data-analysis/multi-database-sql.md)
-10 | Break |
-70 | Lecture | [Physical Database Design](notes/database-design/physical-design.md)
-
-Assignment(s):
-
- + [Data Analysis](assignments/lab/data-analysis.md) (due)
- + [Relational Data Analysis](assignments/lab/relational-data-analysis.md) (given)
-
-### Week 5
-
-duration (mins) | usage | topic
---- | --- | ---
-40 | Lab | [Data Analysis Exercises](/resources/data-analysis/sql-exercises.md)
-40 | Lab | [Physical Design Exercises](/resources/database-design/physical-design/physical-design-exercises.md)
-10 | Break |
-60 | Support | Group Project Business Identification and Analysis
-
-Assignment(s):
-
- + [Relational Data Analysis](assignments/lab/relational-data-analysis.md) (due)
-
-Suggested Group Project Progress:
-
-   + Business Operations and Process Descriptions
-   + Information System Requirements
-
-### Week 6
-
-duration (mins) | usage | topic
---- | --- | ---
-150 | Presentations | Midterm Project Pitches
-
-Assignment(s):
-
- + [Group Project Midterm Pitch](assignments/group-project/midterm-pitch.md) (due)
- + [Group Project Final Documentation](assignments/group-project/final-documentation.md) (given)
- + [Group Project Final Implementation](assignments/group-project/final-implementation.md) (given)
- + [Group Project Final Presentation](assignments/group-project/final-presentation.md) (given)
-
-### Week 7
-
-duration (mins) | usage | topic
---- | --- | ---
-150 | Exam | [Midterm Exam](exams/midterm.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  + Introduction to this Course
+  + [Introduction to Databases within the context of Information Systems](notes/info-systems.md)
+  + [Database Management](notes/database-management.md)
+  + Database Management Software (DBMS), including in-class assignment
+  + [Database Management Software](assignments/lab/database-management-software.md)
+  + [Single-table SQL](notes/data-analysis/single-table-sql.md)
+  + [Single-table Aggregate SQL](notes/data-analysis/single-table-aggregate-sql.md)
+  + [Data Analysis](assignments/lab/data-analysis.md)
+  + [Multi-table SQL](notes/data-analysis/multi-table-sql.md)
+  + [Multi-database SQL](notes/data-analysis/multi-database-sql.md)
+  + [Physical Database Design](notes/database-design/physical-design.md)
+  + [Data Analysis](assignments/lab/data-analysis.md)
+  + [Relational Data Analysis](assignments/lab/relational-data-analysis.md)
+  + [Data Analysis Exercises](/resources/data-analysis/sql-exercises.md)
+  + [Physical Design Exercises](/resources/database-design/physical-design/physical-design-exercises.md)
+  + [Relational Data Analysis](assignments/lab/relational-data-analysis.md)
+  + [Group Project Midterm Pitch](assignments/group-project/midterm-pitch.md)
+  + [Midterm Exam](exams/midterm.md)
 
 ## Module II - Database Design
 
-### Week 8
-
-duration (mins) | usage | topic
---- | --- | ---
-20 | Announcements | Mid-semester Assignment and Exam Recap
-20 | Guest Lecture | GW New Venture Competition Resources
-60 | Lecture | Midterm Exam Review
-30 | Lecture | [Conceptual Database Design](notes/database-design/conceptual-design.md)
-20 | Lab | [Entity and Relationship Identification Exercises](/resources/database-design/conceptual-design/conceptual-design-exercises.md)
-
-Assignment(s):
-
- + [Entity and Relationship Identification](assignments/lab/entity-relationship-identification.md) (given)
-
-### Week 9
-
-duration (mins) | usage | topic
---- | --- | ---
-30 | Lecture | [Entity Relationship Diagramming](notes/database-design/entity-relationship-diagramming.md)
-10 | Break |
-70 | Lecture | [Logical Database Design](notes/database-design/logical-design.md)
-40 | Lab | [Form-based Database Design Exercise](/resources/database-design/logical-design/business-form-based-design-exercise.md)
-
-Assignment(s):
-
- + [Entity and Relationship Identification](assignments/lab/entity-relationship-identification.md) (due)
- + [Entity Relationship Diagramming](assignments/lab/entity-relationship-diagramming.md) (given)
-
-### Week 10
-
-duration (mins) | usage | topic
---- | --- | ---
-40 | Lab | [Form-based Database Design Exercise](resources/database-design/logical-design/business-form-based-design-exercise.md), continued
-70 | Lecture | [Information Inputs](/notes/database-applications/information-inputs.md) and APIs
-10 | Break |
-20 | Support | Assignment Support
-
-
-
-Assignment(s):
-
- + [Entity Relationship Diagrams](assignments/lab/entity-relationship-diagramming.md) (due)
- + [Database Design](assignments/lab/database-design.md) (given)
-
-Additional Practice:
-
- + [API-based Normalization Exercise](resources/database-design/logical-design/api-based-normalization-exercise.md) (eligible for ungraded instructor feedback)
- + [API-based Database Design Exercise](resources/database-design/logical-design/api-based-database-design-exercise.md) (eligible for ungraded instructor feedback)
-
-
-
-
-
-
-
-
-
-
-
-
-
+  + [Conceptual Database Design](notes/database-design/conceptual-design.md)
+  + [Entity and Relationship Identification Exercises](/resources/database-design/conceptual-design/conceptual-design-exercises.md)
+  + [Entity and Relationship Identification](assignments/lab/entity-relationship-identification.md)
+  + [Entity Relationship Diagramming](notes/database-design/entity-relationship-diagramming.md)
+  + [Logical Database Design](notes/database-design/logical-design.md)
+  + [Form-based Database Design Exercise](/resources/database-design/logical-design/business-form-based-design-exercise.md)
+  + [Entity and Relationship Identification](assignments/lab/entity-relationship-identification.md)
+  + [Entity Relationship Diagramming](assignments/lab/entity-relationship-diagramming.md)
+  + [Information Inputs](/notes/database-applications/information-inputs.md) and APIs
+  + [Entity Relationship Diagrams](assignments/lab/entity-relationship-diagramming.md)
+  + [Database Design](assignments/lab/database-design.md)
+  + [API-based Normalization Exercise](resources/database-design/logical-design/api-based-normalization-exercise.md)
+  + [API-based Database Design Exercise](resources/database-design/logical-design/api-based-database-design-exercise.md)
 
 ## Module III - Database Applications
 
-### Week 11
-
-duration (mins) | usage | topic
---- | --- | ---
-10 | Lecture | System Scope
-10 | Lecture | MS Access Applications
-10 | Lecture | Web Dashboards
-70 | Support | Group Project Database Design Inspection
-10 | Break |
-40 | Lab | Tableau Dashboards
-
-Assignments:
-
- + [Database Design](assignments/lab/database-design.md) (due)
- + [Data Visualization](assignments/lab/data-visualization.md) (given)
-
-Suggested Group Project Progress:
-
- + Completed ERD
-
-### Week 12
-
-duration (mins) | usage | topic
---- | --- | ---
-40 | Lab | Normalization Practice (for Final Exam)
-20 | Lab | Web Applications
-10 | Break |
-80 | Support | Group Project Database Application Support (MS Access or Web)
-
-Assignments:
-
- + [Data Visualization](assignments/lab/data-visualization.md) (due on Friday at midnight)
- + [Normalization Practice](assignments/lab/normalization.md) (given and optionally due)
-
-Suggested Group Project Progress:
-
-  + Populated Database
-
-### Week 13
-
-No Class - Thanksgiving
-
-Suggested Group Project Progress:
-
-  + Progress towards Database Application Functionality
-
-### Week 14
-
-duration (mins) | usage | topic
---- | --- | ---
-110 | Lab | More Normalization Practice (for Final Exam)
-10 | Break |
-30 | Support | Group Project Implementation
-
-Assignments:
-
-  + [Normalization Practice](assignments/lab/normalization.md) (deadline extended to midnight concluding Friday 12/4)
-
-Suggested Group Project Progress:
-
-  + Deliverable
-  + Database Application Functionality
-
-
-
-
-
-
-
-
-
-
-
-
-### Week 15
-
-duration (mins) | usage | topic
---- | --- | ---
-120-150 | Presentations | Final Group Project Presentations
-
-Assignment(s):
-
- + [Group Project Final Documentation](assignments/group-project/final-documentation.md) (due)
- + [Group Project Final Implementation](assignments/group-project/final-presentation.md) (due)
- + [Group Project Final Presentation](assignments/group-project/final-presentation.md) (due)
- + [Meetups](assignments/lab/meetups.md) (due)
-
-### Finals Week
-
-duration (mins) | usage | topic
---- | --- | ---
-90-120 | Exam | [Final Exam](exams/final.md)
+  + [Database Design](assignments/lab/database-design.md)
+  + [Data Visualization](assignments/lab/data-visualization.md)
+  + [Normalization Practice](assignments/lab/normalization.md)
+  + [Group Project Final Documentation](assignments/group-project/final-documentation.md)
+  + [Group Project Final Implementation](assignments/group-project/final-presentation.md)
+  + [Group Project Final Presentation](assignments/group-project/final-presentation.md)
+  + [Meetups](assignments/lab/meetups.md)
+  + [Final Exam](exams/final.md)
