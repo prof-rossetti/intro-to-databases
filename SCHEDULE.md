@@ -13,6 +13,7 @@ Notes:
   + [Multi-database SQL](notes/data-analysis/multi-database-sql.md)
   + [Physical Database Design](notes/database-design/physical-design.md)
 
+
 Activities / Deliverables:
 
   + [Database Management Software](assignments/lab/database-management-software.md)
