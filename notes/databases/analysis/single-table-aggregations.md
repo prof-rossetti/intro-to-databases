@@ -1,5 +1,15 @@
 # Single-table, Aggregate SQL
 
+## Built-in Functions
+
+Databases share many familiar aggregation functions as spreadsheets. These are the most common/useful aggregate functions:
+
+ + `SUM()`
+ + `COUNT()`
+ + `MAX()`
+ + `MIN()`
+ + `GROUP_CONCAT()` -- mysql only
+
 ## Clauses
 
 ### GROUP BY
@@ -58,15 +68,6 @@ GROUP BY attribute_m
 HAVING x_count > 100
 ````
 
-## Functions
-
-Databases share many familiar aggregation functions as spreadsheets. These are the most common/useful aggregate functions:
-
- + `SUM()`
- + `COUNT()`
- + `MAX()`
- + `MIN()`
- + `GROUP_CONCAT()` -- mysql only
 
 ## Other Considerations
 
