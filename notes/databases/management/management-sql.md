@@ -12,6 +12,10 @@ Create a database.
 CREATE DATABASE my_db;
 ````
 
+```sql
+CREATE DATABASE IF NOT EXISTS my_db;
+```
+
 ### Removing Databases
 
 Delete a database.
@@ -30,10 +34,10 @@ DROP DATABASE IF EXISTS my_db;
 -- mysql:
 SHOW DATABASES;
 
--- sqlite:
+-- sqlite (command-line):
 .databases
 
--- postgresql:
+-- postgresql (command-line):
 \list
 ````
 
@@ -88,10 +92,10 @@ DROP TABLE IF EXISTS my_table;
 -- mysql:
 SHOW DATABASES;
 
--- sqlite:
+-- sqlite (command-line):
 .tables
 
--- postgresql:
+-- postgresql (command-line):
 \connect db_name
 \dt
 ````
@@ -100,7 +104,7 @@ SHOW DATABASES;
 
 Indices are another physical component of a database.
  They will be introduced later in the semester
-   as a [physical design](/notes/database-design/physical-design.md) concept.
+   as a [physical design](/notes/databases/design/physical-design.md) concept.
 
 #### Creating Indices
 
@@ -161,7 +165,7 @@ SHOW INDEX FROM my_table;
 .indices
 ````
 
-### Data
+### Managing Data
 
 #### Creating Records
 

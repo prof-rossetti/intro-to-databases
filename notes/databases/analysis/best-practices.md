@@ -29,10 +29,10 @@ Think about the end result of the query you are trying to write before you start
 
 Document your manual and programmatic tasks alike.
  Literally write down what you did and how you did it, and keep that information close beside your actual work product. Use comments in your code to help explain your intentions and methodology.
- This will improve the ability of yourself and others to repeat your work in the future, and will help you in efforts to diagnose/verify/justify analytical findings.
+ This will improve the ability of yourself and others to repeat your work in the future, and will help you in efforts to diagnose / verify / justify analytical findings.
 
 ### Use consistent style
 
 Adopt the writing style of community members or develop your own, but be consistent. This will help you communicate/share your queries with others, and avoid syntax errors.
 
-Refer to the [SQL Style Guide](/notes/data-analysis/sql-style-guide.md).
+Refer to the [SQL Style Guide](style-guide.md).
