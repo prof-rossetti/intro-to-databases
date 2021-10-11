@@ -1,125 +1,60 @@
-# Conceptual Database Design
+# Logical Database Design
 
-## Entities
+Proper relational database design produces proper database function.
 
-An **entity** is defined as "a person, place, object, event, or concept in the user environment about which the organization wishes to maintain data" ([1](/README.md/#accompanying-textbook)).
+Proper database functionality requires the absence of factual inconsistencies.
 
-Entities are nouns within the scope of your database design.
+An **anomaly** is "an error or inconsistency that may result when a user attempts to update a table that contains redundant data".
 
-An entity represents a class of object.
+Data redundancy, or duplicity, presents opportunities for data insertion, deletion, and modification errors.
 
-To derive an entity name from a table name when applicable, singularize and capitalize the table name (e.g. for a table named `bicycles`, the entity name would most likely be `Bicycle`).
+Therefore, the main objective of the database design process is to minimize data redundancy.
 
-> NOTE: description of an entity using singular language and either title-case (e.g. `My Entity`) or camel-case (e.g. `MyEntity`)
+A proper relational database design may entirely eliminate data redundancies,
+ however reasonable business assumptions and decisions about database scope often
+ dictate intentional incorporation of a limited amount of redundancy.
 
-In some cases, there may exist more than one entity per each database table. A **sub-type** entity is a collection of entity attributes which "... shares common relationships or attributes distinct from other sub-groupings" ([3](/README.md/#accompanying-textbook)). Sub-type entities are often indicated with an attribute named `type`.
+A properly designed database provides business value in terms at least of:
 
-In other cases, an entity may span multiple database tables. A **super-type**, or **polymorphic** entity is one which has a relationship that includes "... one or more sub-types" ([3](/README.md/#accompanying-textbook)). Super-type entities are often indicated by a composite foreign key of two attributes which share a prefix but differ in suffix, most commonly `_id` and `_type`, respectively, where the prefix indicates the name of the super-type entity.
+ + decreased processing costs
+ + decreased likelihood for factual errors/discrepancies
+ + increased likelihood of data quality/integrity/confidence
 
-Sub-type entities **inherit** attributes from related super-type entities.
+## Denormalized Data
 
-### Attributes
+Datasets in various forms may contain repeating groups of attribute values.
 
-An entity has one or more qualities, or **attributes**. Given a corresponding database table, the list of entity attributes roughly maps to the list of column names.
+Repeating groups of attribute values is common and proper quality of datasets which are used to produce charts, dashboards, statistical analyses, or other outputs which aid decision-making.
 
-Some attributes do not require database storage. **Virtual attributes** can be evaluated and accessed through logical functions and/or mathematic calculations
- (e.g. a virtual `full_name` attribute which is a string concatenation of the database-stored `first_name` and `last_name` attributes).
+## Normalization
 
-### Instances
+**Normalization** is the simplification process by which a data architect arrives at a proper database design.
 
-Given the definition of an entity as a class of object, an **instance** is a specific occurrence of that object class.
+Normalization involves "... decomposing relations with anomalies to produce smaller, well-structured relations" ([4](/README.md/#accompanying-textbook)).
 
-Each record, or row, in a database table represents a separate instance.
+Normalization aims to eliminate the presence of functional dependencies.
 
-Instances of the same entity share attribute names, but do not necessarily share attribute values.
+A **functional dependency** is "... a constraint between two attributes by which the value of one (determines) the value of the other" ([4](/README.md/#accompanying-textbook)).
 
-> NOTE: description of a specific instance (e.g. `my_entity`) or instances (e.g. `my_entities`) in either lower-case or snake-case
+A **transitive dependency** is a functional dependency in which "... one or more non-key attributes (depend) on the primary key through another non-key attribute" ([4](/README.md/#accompanying-textbook)).
 
-## Relationships
+### Stages of Normalization
 
-A **relationship** describes a logical or natural connection between two entities. Some relationships connect an entity with itself. Relationships form on the basis of related attributes.
+There are three general stages of the normalization process.
 
-Relationships are verbs within the scope of your database design. When describing a relationship, use the verbs "has" and "belongs to" unless a reasonable assumption leads to increased verb specificity.
+It is sometimes helpful or necessary to stop at a intermediate stages, but the ultimate goal is to reach Third Normal Form (3NF), which contains no functional dependencies.
 
-Some relationships require the addition of extra tables (see [join tables](#join-tables) below).
+#### First Normal Form
 
-### Relationship Classifications
+**First Normal Form (1NF)** is a
+ "... relation that has a primary key and in which there are no repeating groups" ([4](/README.md/#accompanying-textbook)).
 
-Relationships are classified in terms of degree, cardinality, and optionality. All classifications apply to the relationship as a whole, while
- cardinality and optionality also apply to each side of a relationship.
+#### Second Normal Form
 
-Relationship classifications are a function of both actual and intended data behavior. Examine with care existing data, business logic, and process assumptions to arrive at the proper relationship classifications.
+**Second Normal Form (2NF)** is a relation which satisfies the conditions of 1NF and also "... every non-key attribute (depends) on the primary key." ([4](/README.md/#accompanying-textbook)).
 
-#### Relationship Degree
+2NF may contain one or more transitive dependencies.
 
-Relationship **degree** specifies "the number of entities which participate in the relationship" ([2](/README.md/#accompanying-textbook)).
+#### Third Normal Form
 
-degree | participating entity count | description
---- | --- | ---
-Unary | 1 | a relationship between instances of a single entity
-Binary | 2 | a relationship between instances of two entities
-Ternary | 3 | a relationship between instances of three entities
-
-Degree is determined by entity counts, not table counts. Some relationships between two entities involve three tables, and would still be considered *binary*.
-
-#### Relationship Optionality
-
-Relationship **optionality** specifies for each instance of one entity the minimum number of instances of another entity to which it may relate.
-
-optionality | minimum foreign instance count | description
---- | --- | ---
-Optional | 0 | an instance of one entity relates to a **minimum of zero** instances of the other entity
-Not Optional | 1 | an instance of one entity relates to a **minimum of one** instance of the other entity
-
-#### Relationship Cardinality
-
-Relationship **cardinality** specifies for each instance of one entity the maximum number of instances of another entity to which it may relate.
-
-cardinality | maximum foreign instance count | cardinality participation | description
---- | --- | --- | ---
-One-to-one | 1 | both-sides | each instance of each entity relates to a **maximum of one** instance of the other entity
-One-to-many | greater than one (infinity/ many) | either-side | each instance of one entity relates to a **maximum of more than one** instance of the other entity
-Many-to-many | greater than one (infinity/ many) | both-sides | each instance of each entity relates to a **maximum of more than one** instance of the other entity
-
-##### Join Tables
-
-Many-to-many relationships require the addition of a separate "join table" to properly form the relationship.
-
-Some join tables only contain two attributes: one for joining each of the other related tables. These attributes form a composite primary key.
-
-bicycle_id | student_id
---- | ---
-1 | 1
-1 | 2
-1 | 3
-2 | 1
-2 | 2
-2 | 3
-
-Other join tables, in addition to carrying the related attributes, also carry their own attributes, which makes them eligible for consideration as stand-alone entities.
-
-bicycle_id | student_id | rented_at
---- | --- | ---
-1 | 1 | 2015-10-01 14:00:00
-1 | 2 | 2015-10-02 14:00:00
-1 | 3 | 2015-10-03 14:00:00
-2 | 1 | 2015-10-04 14:00:00
-2 | 2 | 2015-10-05 14:00:00
-2 | 3 | 2015-10-06 14:00:00
-
-For join tables that are stand-alone entities, is acceptable to include an additional attribute to serve as the primary key.
-
-id | bicycle_id | student_id | rented_at
---- | --- | --- | ---
-1 | 1 | 1 | 2015-10-01 14:00:00
-2 | 1 | 2 | 2015-10-02 14:00:00
-3 | 1 | 3 | 2015-10-03 14:00:00
-4 | 2 | 1 | 2015-10-04 14:00:00
-5 | 2 | 2 | 2015-10-05 14:00:00
-6 | 2 | 3 | 2015-10-06 14:00:00
-
-<hr>
-
-Additional Resources:
-
- + https://www.lucidchart.com/pages/ER-diagram-symbols-and-meaning
+**Third Normal Form (3NF)** is a relation which satisfies the conditions of 2NF and also "... has no transitive dependencies" ([4](/README.md/#accompanying-textbook)).

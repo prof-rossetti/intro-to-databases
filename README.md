@@ -14,10 +14,11 @@ Additional Resources:
 
   1. Intro to Database Concepts
   2. Database Usage (SQL):
-     1. Single Table Queries
-     2. Single Table Aggregations
-     3. Multi-Table Joins
+     1. [Single Table Queries](/notes/databases/analysis/single-table-sql.md)
+     2. [Single Table Aggregations](/notes/databases/analysis/single-table-aggregations.md)
+     3. [Multi-Table Joins](/notes/databases/analysis/multi-table-sql.md)
   3. Database Design:
-     1. Physical Design
-     2. Logical Design
-     3. Normalization
+     1. [Design Concepts](/notes/databases/design/concepts.md)
+     2. [Physical Design](/notes/databases/design/physical-design.md)
+     3. [Logical Design](/notes/databases/design/logical-design.md)
+     4. [Entity Relationship Diagramming (ERDs)](/notes/databases/design/entity-relationship-diagramming.md)
