@@ -169,4 +169,4 @@ JOIN itunes_songs its
 
 When executing a query which joins together two or more tables on a related set of attributes, execution time is significantly decreased if each attribute in the join condition is indexed.
 
-See [physical design notes](/notes/database-design/physical-design.md) for more info about indices.
+See [physical design notes](/notes/databases/design/physical-design.md) for more info about indices.
