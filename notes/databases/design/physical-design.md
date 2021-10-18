@@ -22,7 +22,7 @@ When using an existing relational dataset, its table names, and attribute names 
 
 When using an existing relational database, its name, table names, attribute names, and attribute datatypes are pre-defined.
 
-When designing a relational database, the [Normalization Process](/notes/database-design/logical-design.md) will guide you  to arrive at an appropriate logical design in terms of database, table and attribute names. Logical design concepts will be introduced later in the semester.
+When designing a relational database, the [Normalization Process](/notes/databases/design/logical-design.md#normalization) will guide you  to arrive at an appropriate logical design in terms of database, table and attribute names. Logical design concepts will be introduced later in the semester.
 
 ## Datatypes
 
