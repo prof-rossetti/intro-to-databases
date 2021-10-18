@@ -26,6 +26,8 @@ Two different methods for joining tables together are:
  + an inner join
  + an outer join
 
+![venn diagram depicting the difference between inner and outer joins](https://user-images.githubusercontent.com/1328807/137189615-85bfdabe-03eb-47c7-8f1b-23df4aa22637.jpeg)
+
 #### Inner Joins
 
 An inner join returns only the results from each table that match the join condition.
@@ -169,4 +171,4 @@ JOIN itunes_songs its
 
 When executing a query which joins together two or more tables on a related set of attributes, execution time is significantly decreased if each attribute in the join condition is indexed.
 
-See [physical design notes](/notes/database-design/physical-design.md) for more info about indices.
+See [physical design notes](/notes/databases/design/physical-design.md) for more info about indices.
