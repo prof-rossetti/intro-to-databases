@@ -1,5 +1,6 @@
 # Entity-Relationship Diagramming
 
+
 An **Entity Relationship Diagram (ERD)** is a visual database design representation.
 
 An ERD usually depicts database entities and relationships, including relationship descriptions and cardinalities. To maximize information representation, an ERD may also depict attributes, indices like primary and foreign keys, as well as datatypes.
@@ -13,6 +14,11 @@ There is more than one acceptable way to draw an ERD, in terms of the symbols us
 One example style of notation is "Crow's Foot," as illustrated below:
 
 ![a picture with different varieties of rectangle for depicting entities, and lines with different ending symbols for depicting relationships ](/resources/images/conceptdrawdotcom-crows-feet-erd-notation-symbols.png)
+
+Additional Resources:
+
+ + https://www.lucidchart.com/pages/ER-diagram-symbols-and-meaning
+
 
 ### Entities
 

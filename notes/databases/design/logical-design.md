@@ -30,13 +30,13 @@ Repeating groups of attribute values is common and proper quality of datasets wh
 
 **Normalization** is the simplification process by which a data architect arrives at a proper database design.
 
-Normalization involves "... decomposing relations with anomalies to produce smaller, well-structured relations" ([4](/README.md/#accompanying-textbook)).
+Normalization involves "... decomposing relations with anomalies to produce smaller, well-structured relations" ([4](/LICENSE.md/#accompanying-textbook)).
 
 Normalization aims to eliminate the presence of functional dependencies.
 
-A **functional dependency** is "... a constraint between two attributes by which the value of one (determines) the value of the other" ([4](/README.md/#accompanying-textbook)).
+A **functional dependency** is "... a constraint between two attributes by which the value of one (determines) the value of the other" ([4](/LICENSE.md/#accompanying-textbook)).
 
-A **transitive dependency** is a functional dependency in which "... one or more non-key attributes (depend) on the primary key through another non-key attribute" ([4](/README.md/#accompanying-textbook)).
+A **transitive dependency** is a functional dependency in which "... one or more non-key attributes (depend) on the primary key through another non-key attribute" ([4](/LICENSE.md/#accompanying-textbook)).
 
 ### Stages of Normalization
 
@@ -47,14 +47,14 @@ It is sometimes helpful or necessary to stop at a intermediate stages, but the u
 #### First Normal Form
 
 **First Normal Form (1NF)** is a
- "... relation that has a primary key and in which there are no repeating groups" ([4](/README.md/#accompanying-textbook)).
+ "... relation that has a primary key and in which there are no repeating groups" ([4](/LICENSE.md/#accompanying-textbook)).
 
 #### Second Normal Form
 
-**Second Normal Form (2NF)** is a relation which satisfies the conditions of 1NF and also "... every non-key attribute (depends) on the primary key." ([4](/README.md/#accompanying-textbook)).
+**Second Normal Form (2NF)** is a relation which satisfies the conditions of 1NF and also "... every non-key attribute (depends) on the primary key." ([4](/LICENSE.md/#accompanying-textbook)).
 
 2NF may contain one or more transitive dependencies.
 
 #### Third Normal Form
 
-**Third Normal Form (3NF)** is a relation which satisfies the conditions of 2NF and also "... has no transitive dependencies" ([4](/README.md/#accompanying-textbook)).
+**Third Normal Form (3NF)** is a relation which satisfies the conditions of 2NF and also "... has no transitive dependencies" ([4](/LICENSE.md/#accompanying-textbook)).
