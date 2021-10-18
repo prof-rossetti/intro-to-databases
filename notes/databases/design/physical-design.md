@@ -14,7 +14,7 @@ Physical design choices play a major role in database performance, in terms at l
  + query execution costs and resources
  + storage costs
 
-Reference the [Database Management SQL](/notes/database-management/database-management-sql.md) notes for examples of how to manage physical components of the database.
+Reference the [Database Management SQL](/notes/databases/management/management-sql.md) notes for examples of how to manage physical components of the database.
 
 ## Database, Table, and Attribute Names
 
