@@ -54,7 +54,7 @@ CREATE TABLE my_table; -- only some dbms let you create an undefined table struc
 ````
 
 ```` sql
-CREATE TABLE IF EXISTS my_table; -- conditionally create a table
+CREATE TABLE IF NOT EXISTS my_table; -- conditionally create a table
 ````
 
 ```` sql
