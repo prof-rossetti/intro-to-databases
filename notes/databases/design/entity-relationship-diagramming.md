@@ -13,7 +13,7 @@ There is more than one acceptable way to draw an ERD, in terms of the symbols us
 
 One example style of notation is "Crow's Foot," as illustrated below:
 
-![a picture with different varieties of rectangle for depicting entities, and lines with different ending symbols for depicting relationships ](/resources/images/conceptdrawdotcom-crows-feet-erd-notation-symbols.png)
+![a picture with different varieties of rectangle for depicting entities, and lines with different ending symbols for depicting relationships ](https://conceptdraw.com/a672c3/p1/preview/640/pict--crow's-foot-erd-design-elements-erd-(crow's-foot-notation))
 
 Additional Resources:
 
